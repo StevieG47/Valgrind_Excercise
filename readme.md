@@ -1,11 +1,7 @@
 # Using Valgrind
-[![Build Status](https://travis-ci.org/StevieG47/Valgrind_Exercise.svg?branch=master)](https://travis-ci.org/StevieG47/Valgrind_Exercise)
-[![Coverage Status](https://coveralls.io/repos/github/StevieG47/Valgrind_Exercise/badge.svg?branch=master)](https://coveralls.io/github/StevieG47/Valgrind_Exercise?branch=master)
----
-
 
 ### Valgrind Output
-Using Valgrind:
+Running Valgrind:
 ```
 valgrind --track-origins=yes --leak-check=full ./shell-app
 ```
