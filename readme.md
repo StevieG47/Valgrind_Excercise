@@ -21,7 +21,9 @@ valgrind --tool=callgrind ./shell-app
 ```
 In the directory, run ```kcachegrind``` to use the callgrind.out file with the GUI tool.
 
-A screenshot of the KCachegrind GUI is included in this repository. 
+A screenshot of the KCachegrind GUI is included in this repository:
+
+![kcachegrind-output](https://cloud.githubusercontent.com/assets/25371934/24256606/fa4bb0de-0fbe-11e7-869b-8a3fd6e4d164.JPG)
 
 ### Build
 This example was built using:
