@@ -19,11 +19,11 @@ After making these changes, running valgrind on the program yielded zero errors.
 ### Valgrind as a function and memory profiler
 Valgrind can be used with KCachegrind to get a GUI visuilization of runtime and memory problems.
 
-Run the following to generate a callgrind.out file in the same directory
+Run the following to generatea callgrind.out file in the same directory
 ```
 valgrind --tool=callgrind ./shell-app
 ```
-In the directory, run ```kcachegrind``` to use the callgrind.out file with the GUI tool.
+In the directory, run ```kcachegrind``` to use the callgrind.out file and use the GUI tool.
 
 A screenshot of the KCachegrind GUI is included in this repository. 
 
